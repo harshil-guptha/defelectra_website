@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scrolling */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+    /* Offset for sticky navbar (h-16 is 4rem + 1rem breathing room) */
+}
+
+body {
+    background-color: #0f172a;
+    color: #f8fafc;
+}
