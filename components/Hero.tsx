@@ -45,10 +45,19 @@ const Hero: React.FC = () => {
             <Play className="w-5 h-5 fill-current group-hover:text-brand-accent transition-colors" />
             View Video Illustration
           </button>
+          <a
+            href="https://drive.google.com/drive/folders/1BvgPQxExVe8t5Zb7ryDybj6E5mA3jOMN?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group inline-flex items-center gap-2 bg-purple-600 hover:bg-purple-700 text-white px-8 py-4 rounded-xl font-semibold text-lg transition-all shadow-lg shadow-purple-600/25 hover:shadow-purple-600/40"
+          >
+            View Product Demo
+            <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          </a>
         </div>
 
         <p className="text-sm font-medium text-brand-muted text-center animate-fade-in-up">
-          Product Demo Will Be Showcased On Demo Day
+          Live Demo Will Be Showcased On Demo Day
         </p>
       </div>
 
